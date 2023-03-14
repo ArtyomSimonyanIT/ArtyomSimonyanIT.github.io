@@ -1,0 +1,574 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2C3E50;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+header div h1 {
+    /* display: inline-block; */
+    transition: 0.5s;
+}
+
+.div-for-header-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.div-for-header {
+    /* background-color: #1ABC9C; */
+    padding: 1vw;
+    border-radius: 0.7vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.div-for-header:hover {
+    color: #1ABC9C;
+}
+
+.start {
+    height: 59vw;
+    background-color: #1ABC9C;
+}
+
+.avatar {
+    width: 18vw;
+    display: block;
+    margin: auto;
+    padding-top: 14vw;
+}
+
+.start h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.startdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startdiv div {
+    width: 8vw;
+    height: 0.35vw;
+    background-color: white;
+    border-radius: 2vw;
+}
+
+
+.fa-star {
+    color: white;
+    font-size: 2.4vw;
+    padding: 1vw;
+}
+
+.artistt {
+    color: white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.portfolio {
+    height: 60vw;
+}
+
+.portdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portdiv div {
+    width: 8vw;
+    height: 0.35vw;
+    background-color: #2C3E50;
+    border-radius: 2vw;
+}
+
+
+.portdiv i {
+    color: #2C3E50;
+    font-size: 2.4vw;
+    padding: 1vw;
+}
+
+.portfolio h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    font-size: 3.7vw;
+    color: #2C3E50;
+    margin: 0;
+    margin-top: 3vw;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+
+.elements div {
+    width: 30vw;
+    height: 20vw;
+    border-radius: 0.4vw;
+}
+
+.element1 {
+    background-image: url('./images/cabin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 1.5vw;
+}
+
+.element2 {
+    background-image: url('./images/cake.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element3 {
+    background-image: url('./images/circus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element4 {
+    background-image: url('./images/game.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element5 {
+    background-image: url('./images/safe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element6 {
+    background-image: url('./images/submarine.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8vw;
+}
+
+.about {
+    background-color: #1ABC9C;
+    padding-bottom: 5vw;
+    /* height: 50vw; */
+}
+
+.about h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 6vw;
+    font-size: 4vw;
+    font-weight: 740;
+}
+
+.aboutText {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.aboutText div {
+    width: 43%;
+    color: white;
+    font-size: 1.8vw;
+}
+
+.downloadBtn {
+    width: 16vw;
+    height: 5vw;
+    border: 0.2vw solid white;
+    background-color: #1ABC9C;
+    border-radius: 0.8vw;
+    display: block;
+    margin: auto;
+    margin-top: 5vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: white;
+    transition: 0.3s;
+}
+
+.downloadBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.contactDiv {
+    background-color: white;
+    padding: 5vw 0;
+}
+
+
+.contactDiv h1 {
+    color: #2C3E50;
+    text-align: center;
+    margin: 0;
+    padding-top: 1vw;
+    font-size: 4vw;
+    font-weight: 740;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 45px;
+    z-index: 0;
+}
+
+input {
+    font-size: 18px;
+    padding: 1vw;
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+    width: 40%;
+    border: none;
+    border-bottom: 0.1vw solid #bbbbbb;
+    font-size: 2vw;
+    outline: none;
+}
+
+
+label {
+    color: rgb(83, 83, 83);
+    font-size: 2vw;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 30%;
+    top: 1vw;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 1.3vw;
+    color: #999;
+}
+
+
+input:focus~.bar:before,
+input:focus~.bar:after {
+    color: #999;
+    width: 50%;
+}
+
+
+textarea {
+    font-size: 1.6vw;
+    padding: 1vw;
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+    width: 40%;
+    border: none;
+    border-bottom: 0.1vw solid #bbbbbb;
+    font-size: 2vw;
+    resize: vertical;
+    outline: none;
+}
+
+
+textarea:focus~label,
+textarea:valid~label {
+    top: -20px;
+    font-size: 1.3vw;
+    color: #999;
+}
+
+
+textarea:focus~.bar:before,
+textarea:focus~.bar:after {
+    /* color: #999; */
+    width: 50%;
+}
+
+.sendBtn {
+    padding: 1.4vw 1.8vw;
+    font-size: 1.56vw;
+    color: white;
+    border-radius: 0.6vw;
+    border: none;
+    background-color: #59D5BF;
+    display: block;
+    margin-left: 29%;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A252F;
+    padding: 2vw 0;
+    color: white;
+    font-size: 1vw;
+}
+
+.footer-information {
+    background-color: #2C3F4F;
+    padding: 4vw 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-information div {
+    text-align: center;
+}
+
+.fd1 {
+    width: 18%;
+}
+
+.footer-information h2 {
+    font-size: 2.1vw;
+}
+
+.footer-information span {
+    font-size: 1.5vw;
+    /* display: flex; */
+}
+
+.fd2 span {
+    display: flex;
+}
+
+.footer-icons {
+    border-radius: 50%;
+    border: 0.2vw solid white;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0.5vw;
+    transition: 0.3s;
+}
+
+.footer-icons:hover {
+    color: black;
+    background-color: white;
+}
+
+.fd3 {
+    width: 30%;
+}
+
+.fd3 span {
+    font-size: 1.5vw;
+}
+
+.fd3 a {
+    color: #00BF93;
+}
+
+/* .element1:hover{
+    opacity: 0.2;
+} */
+
+
+.e1 {
+    width: 30vw;
+    height: 20vw;
+}
+
+
+.e1d {
+    /* position: relative; */
+    /* opacity: 0.7; */
+    opacity: 0;
+    width: 30vw;
+    height: 20vw;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vw;
+    color: white;
+    background-color: #00BF93;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.element1:hover>.e1d {
+    opacity: 0.9;
+}
+
+.element2:hover>.e1d {
+    opacity: 0.9;
+}
+
+.element3:hover>.e1d {
+    opacity: 0.9;
+}
+
+.element4:hover>.e1d {
+    opacity: 0.9;
+}
+
+.element5:hover>.e1d {
+    opacity: 0.9;
+}
+
+.element6:hover>.e1d {
+    opacity: 0.9;
+}
+
+
+.elem1 {
+    width: 90%;
+    margin: 3vw auto;
+    background-color: white;
+    border-radius: 1vw;
+    transition: 0.5s;
+    padding-bottom: 2vw;
+}
+
+
+.fa-xmarkk {
+    /* display: block; */
+    text-align: right;
+    width: 98%;
+    font-size: 4vw;
+    color: gray;
+}
+
+.fa-xmark {
+    cursor: pointer;
+}
+
+.elem1 h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 3vw;
+}
+
+.elem {
+    width: 60%;
+    height: 33vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+    margin: auto;
+    margin-bottom: 5vw;
+}
+
+.elem1I{
+    background-image: url('./images/cabin.png');
+}
+
+.elem2I{
+    background-image: url('./images/cake.png');
+}
+
+.elem3I{
+    background-image: url('./images/circus.png');
+}
+
+.elem4I{
+    background-image: url('./images/game.png');
+}
+
+.elem5I{
+    background-image: url('./images/safe.png');
+}
+
+.elem6I{
+    background-image: url('./images/submarine.png');
+}
+
+.elem1 button {
+    padding: 1vw;
+    background-color: #00BF9D;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1.3vw;
+    color: white;
+    display: block;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+
+.elem1 button i {
+    font-size: 0.9vw;
+}
+
+.elem1 p{
+    display: block;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3vw;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: black;
+    outline: 0;
+    opacity: 0.7;
+    transition: opacity 0.15s linear;
+}
+
+
+.overlay {
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    z-index: 9999;
+}
